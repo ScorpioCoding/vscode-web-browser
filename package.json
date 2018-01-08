@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "publisher": "masonicboom",
     "engines": {
-        "vscode": "^1.0.0"
+        "vscode": "^1.19.0"
     },
     "categories": [
         "Other"
@@ -23,9 +23,11 @@
         ]
     },
     "scripts": {
-        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install"
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"       
     },
     "devDependencies": {
         "typescript": "^2.6.2",
