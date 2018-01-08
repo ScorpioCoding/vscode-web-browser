@@ -32,6 +32,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
             - "watch": "tsc -watch -p ./",
     * engines
         - updated version "vscode": "^1.0.0" => "vscode": "^1.19.0"
+11. Created new folder : Deprecated
+12. Moved .vscode/task.json => deprecated/task.json
 
 
 
