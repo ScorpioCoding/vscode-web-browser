@@ -32,8 +32,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
             - "watch": "tsc -watch -p ./",
     * engines
         - updated version "vscode": "^1.0.0" => "vscode": "^1.19.0"
-11. Created new folder : Deprecated
+11. Added new folder : Deprecated
 12. Moved .vscode/task.json => deprecated/task.json
+13. Added new .vscode/task.json version 2.0.0
+14. Fixed error cannot find 'vscode' module in file extension.ts
+    * Changed : package.json - changed devDependencies
+        - "vscode": "^0.11.0"       => "vscode": "^1.1.10"
 
 
 

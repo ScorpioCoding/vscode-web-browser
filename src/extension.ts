@@ -5,7 +5,7 @@ export function activate(context: vscode.ExtensionContext) {
     class BrowserContentProvider implements vscode.TextDocumentContentProvider {
         provideTextDocumentContent(uri: vscode.Uri, token: vscode.CancellationToken): string {
             // TODO: detect failure to load page (e.g. google.com) and display error to user.
-            return `<iframe src="${uri}" frameBorder="0" style="width: 100%; height: 100%" />`;
+            return `<iframe name="Browser" id="Browser" src="${uri}" frameBorder="0" style="width: 100%; height: 100%" />`;
         }
     }
     let provider = new BrowserContentProvider();
