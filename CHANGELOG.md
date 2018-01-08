@@ -14,6 +14,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 5. added : extention.js - added by typescript-compiler tsc src/extention.ts --target ES5
 6. changed : .vscode/launch.json changed deprecated config command outDir to outFiles which is an array
 7. changed : .vscode/task.json changed deprecated config command "isWatching" to "isBackground"
+8. changed : tsconfig.json command typscript compiler "target" from es5 to es6
+    * got to change this to be able to update the devDependecy : typescript
 
 
 ## [Unreleased]
