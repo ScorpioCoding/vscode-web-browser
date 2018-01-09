@@ -58,6 +58,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
     * Changed : File : typings/vscode-typings.d.ts
         - changed path from : path="../node_modules/vscode/typings/index.d.ts"
         - changed path to : path="./../node_modules/vscode/vscode.d.ts"
+19. Changed : File : extension.ts - Added Extra Important Styling to the iFrame
+    * Added : top: 0; left: 0; position: fixed; background-color:white;
+    * Important : cause without the iFrame doesn't show.
 
 
 
