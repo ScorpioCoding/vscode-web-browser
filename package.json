@@ -30,6 +30,8 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
+        "@types/node": "^9.3.0",
+        "env-node": "^1.0.0",
         "typescript": "^2.6.2",
         "vscode": "^1.1.10"
     }
