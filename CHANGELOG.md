@@ -38,6 +38,28 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 14. Fixed error cannot find 'vscode' module in file extension.ts
     * Changed : package.json - changed devDependencies
         - "vscode": "^0.11.0"       => "vscode": "^1.1.10"
+15. Issue : Compile Issue Ts Properties
+    * File : src/extension.ts
+    * [ts] Property 'startsWith' does not exist on type 'string'
+    * [ts] Property 'push' does not exist on type '{}'
+16. Fixed Ts Property issues
+    * Issue is due to compile --target ES6 doesn't work
+    * Changed tsconfig.json
+        Changed "noLib": true => false
+        Added "lLib": ["es5", "es6", "es7"]
+17. Issue : Compile Issues Typings reference path not found
+    * File : typings/node.d.ts
+    * File : typings/vscode-typings.d.ts
+18. Fixed Typings Reference path not found
+    * Added : devDependecy "@types/node": "^9.3.0",
+    * Changed : File : typings/node.d.ts
+        - changed path from : path="../node_modules/@typings/node/index.d.ts"
+        - changed path to : path="./../node_modules/@types/node/index.d.ts"
+    * Changed : File : typings/vscode-typings.d.ts
+        - changed path from : path="../node_modules/vscode/typings/index.d.ts"
+        - changed path to : path="./../node_modules/vscode/vscode.d.ts"
+
+
 
 
 
