@@ -51,7 +51,7 @@ export function activate(context: vscode.ExtensionContext) {
                     col = vscode.ViewColumn.One;
                 }
 
-                return vscode.commands.executeCommand('vscode.previewHtml', uri, col).then((success) => {
+                return vscode.commands.executeCommand('vscode.previewHtml', uri, col, uri.toString()).then((success) => {
                 }, (reason) => {
                     vscode.window.showErrorMessage(reason);
                 }

@@ -2,7 +2,7 @@
     "name": "web-browser",
     "displayName": "Web Browser",
     "description": "Web browser in an editor pane.",
-    "version": "0.0.1",
+    "version": "2.0.1",
     "publisher": "masonicboom",
     "engines": {
         "vscode": "^1.19.0"
