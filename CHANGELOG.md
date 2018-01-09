@@ -61,6 +61,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 19. Changed : File : extension.ts - Added Extra Important Styling to the iFrame
     * Added : top: 0; left: 0; position: fixed; background-color:white;
     * Important : cause without the iFrame doesn't show.
+20. Changed : The Build, Watch, Debug process
+
+### Test Build Hotfix
+    - Build a test Version and installed it locally into my VSCode with success and it runs like a charm
+    - ScorpioCoding has created an updated and working version
 
 
 
