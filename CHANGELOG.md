@@ -62,6 +62,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
     * Added : top: 0; left: 0; position: fixed; background-color:white;
     * Important : cause without the iFrame doesn't show.
 20. Changed : The Build, Watch, Debug process
+21. CLeanup unwanted devDependencies
 
 ### Test Build Hotfix
     - Build a test Version and installed it locally into my VSCode with success and it runs like a charm
